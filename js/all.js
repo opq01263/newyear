@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	$('.box').fadeOut(1100);
+	$('.box').fadeOut(2500);
 		
 
 });
