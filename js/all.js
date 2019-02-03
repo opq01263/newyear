@@ -1,4 +1,4 @@
 jQuery(document).ready(function($) {
-	$('.box').slideUp(800)
+	$('.box').slideUp(3000)
 
 });
