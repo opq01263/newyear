@@ -1,4 +1,6 @@
 jQuery(document).ready(function($) {
-	$('.box').slideUp(3000)
+	$('.box').fadeOut('slow/3000/fast', function() {
+		
+	});
 
 });
