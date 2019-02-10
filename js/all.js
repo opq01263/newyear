@@ -1,5 +1,10 @@
 $(document).ready(function() {
-
+$(function(){
+    setInterval(flicker,1000);//迴圈閃爍，間隔1秒
+})
+function flicker(){//閃爍函數
+    $('.pp').fadeOut(500).fadeIn(500);
+}
   $('.question h1').click(function(event) {
 
     // 讓點擊到的 h3 亮起來，其他h3移除active樣式
@@ -14,17 +19,4 @@ $(document).ready(function() {
     $(this).parent().siblings().find('h1').removeClass('active');
 
   });
-});
-jQuery(document).ready(function($) {
-    $("h2").hide()
-    $(".enter").click(function(event) {
-        $("h2").slideDown(500)
-        $(".enter").hide()
-$(function(){
-    setInterval(flicker,500);//迴圈閃爍，間隔1秒
-})
-function flicker(){//閃爍函數
-    $('h2').fadeOut(500).fadeIn(500);
-}
-    });
 });
