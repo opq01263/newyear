@@ -58,7 +58,9 @@ body{
 	margin-bottom: 50px;
 }
 h2{
+	color: #0066FF;
 	font-size: 36px;
+	margin-bottom: 10px;
 }
 .question h1{
   background:#46a3ff;
