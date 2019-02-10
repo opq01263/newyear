@@ -15,3 +15,16 @@ $(document).ready(function() {
 
   });
 });
+jQuery(document).ready(function($) {
+    $("h2").hide()
+    $(".enter").click(function(event) {
+        $("h2").slideDown(500)
+        $(".enter").hide()
+$(function(){
+    setInterval(flicker,500);//迴圈閃爍，間隔1秒
+})
+function flicker(){//閃爍函數
+    $('h2').fadeOut(500).fadeIn(500);
+}
+    });
+});
