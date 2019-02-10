@@ -1,9 +1,9 @@
 $(document).ready(function() {
 $(function(){
-    setInterval(flicker,1000);//迴圈閃爍，間隔1秒
+    setInterval(flicker,200);//迴圈閃爍，間隔1秒
 })
 function flicker(){//閃爍函數
-    $('.pp').fadeOut(500).fadeIn(500);
+    $('.pp').fadeOut(200).fadeIn(200);
 }
   $('.question h1').click(function(event) {
 
