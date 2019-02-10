@@ -58,7 +58,7 @@ body{
 }
 .question h1{
   background:#46a3ff;
-  padding: 20px;
+  padding:50px 20px 10px 20px;
   font-size: 28px;
   cursor: pointer;
 }
